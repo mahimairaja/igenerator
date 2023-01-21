@@ -1,4 +1,4 @@
-# <center>igenerator
+# igenerator
 
 **igenerator** is a python package that allows you to generate psudo random numbers and write them to a CSV file or SQLite database with just a few lines of code. The package utilizes the [JAX](https://jax.readthedocs.io/en/latest/#) function which is based on the C++ library [random123](http://www.thesalmons.org/john/random123/). These functions are designed to be fast and efficient, and are suitable for use in machine learning applications.
 
@@ -18,7 +18,7 @@ from igenerator import LiveGenerator
 
 Then, you can create an instance of the `TrueGenerator` class:
 
-``` python
+```python
 generator = LiveGenerator()
 or
 generator = LiveGenerator(0) # Pass a optional parameter (i.e any integer ) to set the seed val.
